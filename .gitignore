@@ -1,0 +1,10 @@
+*.egg-info/
+*.pyc
+.coverage
+__pycache__/
+config.ini
+htmlcov/
+build/
+dist/
+.*swp
+.cache/
