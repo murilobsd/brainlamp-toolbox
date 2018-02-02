@@ -22,3 +22,7 @@ class TestParagraph(TestCase):
     def test_words_count(self):
         """Test word count."""
         self.assertEqual(self.p1.words_count, 123)
+
+    def test_size(self):
+        """Test size."""
+        self.assertEqual(self.p1.size, 589)
