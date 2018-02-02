@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/brainlamp/brainlamp-toolbox.svg?branch=master
+   :target: https://travis-ci.org/brainlamp/brainlamp-toolbox
+   :alt: Travis CI build status (Linux)
+
 Drain Lamp Toolbox
 ===================
 
