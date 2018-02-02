@@ -6,6 +6,10 @@
    :target: https://coveralls.io/github/brainlamp/brainlamp-toolbox?branch=master
    :alt: Coveralls
 
+.. image:: https://landscape.io/github/brainlamp/brainlamp-toolbox/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/brainlamp/brainlamp-toolbox/master
+   :alt: Code Health
+
 Drain Lamp Toolbox
 ===================
 
