@@ -1,3 +1,6 @@
+Drain Lamp Toolbox
+===================
+
 .. image:: https://travis-ci.org/brainlamp/brainlamp-toolbox.svg?branch=master
    :target: https://travis-ci.org/brainlamp/brainlamp-toolbox
    :alt: Travis CI build status (Linux)
@@ -10,8 +13,6 @@
    :target: https://landscape.io/github/brainlamp/brainlamp-toolbox/master
    :alt: Code Health
 
-Drain Lamp Toolbox
-===================
 
 brainlamp_toolbox is compatible with Python 3+
 
