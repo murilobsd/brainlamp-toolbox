@@ -2,6 +2,10 @@
    :target: https://travis-ci.org/brainlamp/brainlamp-toolbox
    :alt: Travis CI build status (Linux)
 
+.. image:: https://coveralls.io/repos/github/brainlamp/brainlamp-toolbox/badge.svg?branch=master
+   :target: https://coveralls.io/github/brainlamp/brainlamp-toolbox?branch=master
+   :alt: Coveralls
+
 Drain Lamp Toolbox
 ===================
 
