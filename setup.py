@@ -15,15 +15,17 @@ setup(
     ],
     description='Toolbox for Brain Lamp project',
     zip_safe=False,
-    install_requires=[],
-    keywords='school, big data, brazil, machine learning',
-    license='MIT',
+    install_requires=[
+        'nltk==3.2.5'
+    ],
+    keywords='school, big data, machine learning, artificial inteligence',
+    license='BSD',
     long_description='Check `Brain Lamp Toolbox at GitHub <{}>`_.'.format(REPO_URL),
     name='brainlamp-toolbox',
     packages=[
         'brainlamp_toolbox',
-        'brainlamp_toolbox.text'
+        'brainlamp_toolbox.essay'
     ],
     url=REPO_URL,
-    version='0.0.1'
+    version='0.1.0'
 )
