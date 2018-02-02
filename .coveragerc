@@ -1,2 +1,4 @@
 [run]
 source = brainlamp_toolbox
+omit = tests/*
+       brainlamp_toolbox/__init__.py
