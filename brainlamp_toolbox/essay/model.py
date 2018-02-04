@@ -1,6 +1,4 @@
 """Essay model."""
-import re
-
 from brainlamp_toolbox import log
 from .utils import tokenize, get_sentences, get_paragraphs
 
