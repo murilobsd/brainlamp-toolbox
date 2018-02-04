@@ -18,7 +18,7 @@ setup(
     install_requires=[
         'nltk==3.2.5'
     ],
-    keywords='school, big data, machine learning, artificial inteligence',
+    keywords='school, big data, machine learning, artificial intelligence',
     license='BSD',
     long_description='Check `Brain Lamp Toolbox at GitHub <{}>`_.'.format(REPO_URL),
     name='brainlamp-toolbox',
