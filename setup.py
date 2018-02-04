@@ -27,5 +27,6 @@ setup(
         'brainlamp_toolbox.essay'
     ],
     url=REPO_URL,
-    version='0.1.0'
+    python_requires='>=3',
+    version='0.1.3'
 )
