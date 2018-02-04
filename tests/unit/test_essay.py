@@ -26,3 +26,8 @@ class TestParagraph(TestCase):
     def test_size(self):
         """Test size."""
         self.assertEqual(self.p1.size, 589)
+
+    def test_sentences(self):
+        """Test sentences."""
+        expected = "This family was a victim of a problem they could have avoided-a problem that, according to Florida park rangers, hundreds of visitors suffer each year.\""
+        self.assertEqual(expected in self.p1.sentences, True)

@@ -6,3 +6,5 @@ WORKDIR /home/brain_lamp/toolbox
 COPY . .
 
 RUN python setup.py develop
+RUN python -c "import nltk ; nltk.download('punkt')"
+RUN python -c "import nltk ; nltk.download('stopwords')"
