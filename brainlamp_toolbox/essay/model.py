@@ -1,7 +1,8 @@
 """Essay model."""
+import re
 
 from brainlamp_toolbox import log
-from .utils import tokenize, get_sentences
+from .utils import tokenize, get_sentences, get_paragraphs
 
 
 class Paragraph:
@@ -33,7 +34,7 @@ class Paragraph:
 
     @property
     def words_count(self):
-        """Number of words."""
+        """Count of words."""
         return len(self.words)
 
     def __str__(self):
@@ -57,7 +58,7 @@ class Essay:
         """
         self.title = title
         self.text = text
-        self.paragraphs = [Paragraph(p) for p in text.split('\n')]
+        self.paragraphs = [Paragraph(p) for p in get_paragraphs(text)]
         log.debug('Init Essay: %s' % self.title)
 
     @property
@@ -77,7 +78,7 @@ class Essay:
 
     def __iter__(self):
         """Iterate."""
-        return iter(self.paragraph)
+        return iter(self.paragraphs)
 
     def __str__(self):
         return self.title
